@@ -23,7 +23,7 @@ def loadBdds():
 Creation des tables
 Détails :
 - users -> Stockage des users (discordId,rmId,htbId,thmId,chId)
-- challs -> Stockage des challenges des différentes personnes, permet de diminuer le nb de requêtes aux API (challId,plateforme,title,descr,score,difficulty,cat)
+- challs -> Stockage des challenges des différentes personnes, permet de diminuer le nombre de requêtes aux API (challId,plateforme,title,descr,score,difficulty,cat)
 - servers -> Stockages des servers (et channels) sur lesquels est le bot (serverId, channelId)
 - linker -> Associe les challenges et les users, les challenges validés par le user (discordId,challId)
 - linker_server -> Associe les users avec les différents servers (TODO : faire en sorte que ça soit pas channel) 
