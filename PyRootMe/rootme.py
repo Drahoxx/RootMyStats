@@ -1,7 +1,7 @@
 import requests
 with open("../API_ROOTME.secret","r") as f:
 	API_KEY = f.readline()
-
+ 
 
 def getUser(uid):
 	try:
